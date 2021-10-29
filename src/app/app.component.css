@@ -14,7 +14,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #4267B2;
   color: white;
   font-weight: 600;
   font-size: 2.5em;
@@ -53,11 +53,9 @@
   margin-top: 16px;
 }
 
-.content .card-container .card {
-  all: unset;
+.content .card-container .card1 {
+  background-color: #e63226;
   border-radius: 4px;
-  border: 1px solid #eee;
-  background-color: #fafafa;
   height: 80px;
   width: 400px;
   margin: 0 2% 4%;
@@ -65,13 +63,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -79,13 +77,120 @@
   transition: all 0.2s ease-in-out;
   line-height: 24px;
   cursor: pointer;
+  color: white;
+  font-size: 2em;
 }
 
-.content .card-container .card:hover {
+.content .card-container .card2 {
+  background-color: #1f8300;
+  border-radius: 4px;
+  height: 80px;
+  width: 400px;
+  margin: 0 2% 4%;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}
+
+.content .card-container .card3 {
+  background-color: #4267b2;
+  border-radius: 4px;
+  height: 80px;
+  width: 400px;
+  margin: 0 2% 4%;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}
+
+.content .card-container .card4 {
+  background-color: #ff5100;
+  border-radius: 4px;
+  height: 80px;
+  width: 400px;
+  margin: 0 2% 4%;
+  padding: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  line-height: 24px;
+  cursor: pointer;
+  color: white;
+  font-size: 2em;
+}
+
+.content .card-container .card1:hover {
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
-  -webkit-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-          box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+          box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+}
+
+.content .card-container .card2:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+          box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+}
+
+.content .card-container .card3:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+          box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+}
+
+.content .card-container .card4:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+          box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
 }
 
 @media screen and (max-width: 360px) {
@@ -101,11 +206,9 @@
             justify-content: center;
     margin-top: 16px;
   }
-  .content .card-container .card {
-    all: unset;
+  .content .card-container .card1 {
+    background-color: #e63226;
     border-radius: 4px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
     height: 80px;
     width: 400px;
     margin: 0 2% 4%;
@@ -113,13 +216,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -127,12 +230,113 @@
     transition: all 0.2s ease-in-out;
     line-height: 24px;
     cursor: pointer;
+    color: white;
+    font-size: 2em;
   }
-  .content .card-container .card:hover {
+  .content .card-container .card2 {
+    background-color: #1f8300;
+    border-radius: 4px;
+    height: 80px;
+    width: 400px;
+    margin: 0 2% 4%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+  }
+  .content .card-container .card3 {
+    background-color: #4267b2;
+    border-radius: 4px;
+    height: 80px;
+    width: 400px;
+    margin: 0 2% 4%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+  }
+  .content .card-container .card4 {
+    background-color: #ff5100;
+    border-radius: 4px;
+    height: 80px;
+    width: 400px;
+    margin: 0 2% 4%;
+    padding: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+  }
+  .content .card-container .card1:hover {
     -webkit-transform: translateY(-3px);
             transform: translateY(-3px);
-    -webkit-box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
-            box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+            box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+  }
+  .content .card-container .card2:hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+            box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+  }
+  .content .card-container .card3:hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+            box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+  }
+  .content .card-container .card4:hover {
+    -webkit-transform: translateY(-3px);
+            transform: translateY(-3px);
+    -webkit-box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
+            box-shadow: 0 4px 17px rgba(255, 255, 255, 0.35);
   }
 }
 /*# sourceMappingURL=app.component.css.map */
