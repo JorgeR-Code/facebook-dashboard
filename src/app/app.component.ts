@@ -9,18 +9,3 @@ export class AppComponent {
   title = 'facebookDashboard';
 }
 
-
-export class MyComponentOrService {
- 
-  constructor(private fb: FacebookService) {
- 
-    const initParams: InitParams = {
-      appId: '666709170961617',
-      xfbml: true,
-      version: 'v2.8'
-    };
- 
-    fb.init(initParams);
-  }
- 
-}
