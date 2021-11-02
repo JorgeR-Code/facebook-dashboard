@@ -25,7 +25,6 @@ export class MyComponentOrService {
     };
  
     fb.init(initParams);
- 
   }
  
 }
